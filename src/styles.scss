@@ -1,0 +1,22 @@
+$primary-color: white;
+$bg: black;
+
+:root {
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+*,
+:before,
+:after {
+  box-sizing: inherit;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.5);
+  }
+}
